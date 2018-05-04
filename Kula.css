@@ -1,0 +1,373 @@
+.pg2-container2 {
+    width: 150px;
+    height: 450px;
+    background-image: url("img/float2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+}​
+
+/*.containerr2 {
+    width: 150px;
+    height: 450px;
+    background-image: url("water.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}​*/
+
+/*.pg2-no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+*/
+
+#one {
+	display: none;
+	font-size: 5px;
+	
+}
+
+
+.carousel1 {
+	background-image: url(img/kulayoga1.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+
+}
+
+.carousel2 {
+	background-image: url(img/cantreuse1.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.carousel3 {
+	background-image: url(img/float1.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+.respond.respond2.respond3 {
+width: 100%; 
+height: 100vh;	
+}
+
+
+.footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.nav-background {
+	background: rgba(0,0,0,.4); 
+}
+
+.heading.navbar-brand.kk1 {
+	font-family: 'Great Vibes', cursive;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px black;
+  /*  font-color: white;*/
+    color: white;
+}
+
+
+.menu-nobackground.dropdown-menu {
+	border: 0px;
+	/*background: ;*/
+	background: none;
+
+}
+
+.white2 {
+	color: white;
+}
+
+.white {
+	color: white;
+}
+
+.white.color {
+	color: white;
+}
+
+.white.color.nav-link.dropdown-toggle {
+ color: white;
+}
+
+.white.color.nav-link.coloragain {
+ color: white;
+}
+
+#taper { 
+
+	width: max-width;
+  border : 0;
+  height: 1.5px; 
+ background: linear-gradient(to right, rgba(254, 251, 223, 0) 0%, #fefbdf 12%, #fefbdf 88%, rgba(254, 251, 223, 0) 100%);
+    background-image: linear-gradient(to right, rgba(254, 251, 223, 0) 0%, rgb(254, 251, 223) 12%, rgb(254, 251, 223) 88%, rgba(254, 251, 223, 0) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin: 0px;
+}
+
+
+.carousel-indicators.indicators-up {
+	margin-bottom: 50px;
+}
+
+
+.hover.dropdown-item:hover {
+	color: green;
+	background: none;
+}
+
+
+
+.space {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.space2 {
+	margin-left: 40px;
+}
+
+.fa.fa-facebook-official {
+	color: white;
+	width: 50px;
+}
+
+.quote {
+	font-size: 15px;
+	    display: block;
+    padding: .5rem 1rem;
+}
+
+/*NAVBAR DOWN, FLOWER OF LIFE TO THE RIGHT*/
+
+
+
+@media (max-width: 2000px) {
+	.row.footer-center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 2000px){
+.flower {
+	width: 115px;
+	}
+.navbar-brand.heading {
+	font-size: 40px;
+	}
+	.nav-link-bbaccs {
+	padding: .5rem 1rem;
+	}
+}
+
+
+@media (max-width: 1199px) {
+.flower {
+		width: 100px;
+	}
+.navbar-brand.heading.kk1 {
+	font-size: 30px;
+	}
+	.white {
+		font-size: 12px;
+	}
+}
+
+
+@media (min-width: 700px) {
+.my-nav-center.my-nav-center2 {
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+
+@media (max-width: 699px) {
+.my-nav-center.my-nav-center2 {
+	padding-right: 1%;
+	padding-left: 1%;
+}
+}
+
+
+/*@media (min-width: 385px) and (max-width: 1120px){
+.flower {
+	width: 100px;
+	}
+.navbar-brand.heading {
+	font-size: 40px;
+	}
+	.nav-link-bbaccs {
+	padding: .5rem 1rem;
+}
+*/
+
+
+@media (min-width: 652px){
+	.buttonhide {
+		display: none;
+	}
+}
+@media (min-width: 652px){
+.collapse.navbar-collapse.dropdown-dissapear {
+	display: none;
+}
+}
+
+@media (max-width: 687px){
+	.mobile-respond.white2 {
+		font-size: 10px;
+	}
+}
+
+/*@media (max-width: 651px){
+	.buttonhide {
+		
+	}
+}*/
+
+@media (max-width: 652px) {
+	.space {
+		display: none;
+	}
+
+	.space2 {
+		display: none;
+	}
+
+	.flower {
+		width: 60px;
+	}
+
+	.responsive-padding {
+		padding-left: 10px;
+	}
+	.navbar-brand.heading.kk1 {
+		font-size: 20px;
+	}
+
+	.responsive-size {
+		font-size: 12.5px;
+	}
+}
+
+
+
+@media (max-width: 528px) {
+	.mobile-respond.mr2.mr3.mr4.mr5.white2 {
+		padding-left: 5px; 
+		padding-right: 5px;
+	}
+	}
+
+
+@media (max-width: 501px) {
+	.mobile-respond.mr2.mr3.mr4.mr5.white2 {
+		display: none;
+	}
+	.footer-quotes {
+		font-size: 15px;
+		color: white;
+		padding-top: 5px;
+	}
+} 
+
+@media (min-width: 502px) {
+	.footer-quotes {
+		display: none;
+	}
+}
+
+
+/*@media(max-width: 501px) {
+	.footer-button.navbar-toggler {
+
+}*/
+
+
+@media (max-width: 442px) {
+	.responsive-size {
+		display: none;
+	}
+}
+
+@media (max-width: 362px) {
+	.responsive-padding {
+		padding-left: 9px;
+	}
+}
+
+@media (min-width: 320px) {
+	.white2 {
+		font-size: 15px;
+
+	}
+}
+
+
+.dropdown-item.hover {
+	color: white;
+	text-shadow: 1.5px 1.5px black;
+}
+
+.navbar-brand.heading.kk1:hover { 
+    color: green;
+}
+
+a.nav-link:hover {
+	color: green;
+}
+
+a.white:hover {
+	color: green;
+}
+
+a.mr2.mr3.mr4.mr5:hover {
+	color: green;
+}
+
+
+/*delete evntually*/
+
+/*Extra small devices Portrait phones (<544px)
+Small devices Landscape phones (≥544px - <768px)
+Medium devices Tablets (≥768px - <992px)
+Large devices Desktops (≥992px - <1200px)
+Extra large devices Desktops (≥1200px)*/
+
+
+
+
+
+
+
+
+
+
+
+
+
