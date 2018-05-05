@@ -7,21 +7,6 @@
     background-position: 70% 70%;
 }​
 
-/*.containerr2 {
-    width: 150px;
-    height: 450px;
-    background-image: url("water.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}​*/
-
-/*.pg2-no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-*/
-
 #one {
 	display: none;
 	font-size: 5px;
@@ -112,7 +97,13 @@ height: 100vh;
 	width: max-width;
   border : 0;
   height: 1.5px; 
+ background: -webkit-gradient(linear, left top, right top, from(rgba(254, 251, 223, 0)), color-stop(12%, #fefbdf), color-stop(88%, #fefbdf), to(rgba(254, 251, 223, 0))); 
+ background: -webkit-linear-gradient(left, rgba(254, 251, 223, 0) 0%, #fefbdf 12%, #fefbdf 88%, rgba(254, 251, 223, 0) 100%); 
+ background: -o-linear-gradient(left, rgba(254, 251, 223, 0) 0%, #fefbdf 12%, #fefbdf 88%, rgba(254, 251, 223, 0) 100%); 
  background: linear-gradient(to right, rgba(254, 251, 223, 0) 0%, #fefbdf 12%, #fefbdf 88%, rgba(254, 251, 223, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(254, 251, 223, 0)), color-stop(12%, rgb(254, 251, 223)), color-stop(88%, rgb(254, 251, 223)), to(rgba(254, 251, 223, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(254, 251, 223, 0) 0%, rgb(254, 251, 223) 12%, rgb(254, 251, 223) 88%, rgba(254, 251, 223, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(254, 251, 223, 0) 0%, rgb(254, 251, 223) 12%, rgb(254, 251, 223) 88%, rgba(254, 251, 223, 0) 100%);
     background-image: linear-gradient(to right, rgba(254, 251, 223, 0) 0%, rgb(254, 251, 223) 12%, rgb(254, 251, 223) 88%, rgba(254, 251, 223, 0) 100%);
     background-position-x: initial;
     background-position-y: initial;
@@ -358,7 +349,6 @@ Small devices Landscape phones (≥544px - <768px)
 Medium devices Tablets (≥768px - <992px)
 Large devices Desktops (≥992px - <1200px)
 Extra large devices Desktops (≥1200px)*/
-
 
 
 
